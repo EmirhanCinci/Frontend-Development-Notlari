@@ -1,0 +1,20 @@
+p::first-line {
+    font-weight: bold;
+    color: red;
+}
+
+p.about::first-line {
+    color: green;
+}
+
+p::first-letter {
+    font-size: 48px;
+}
+
+::selection {
+    background-color: hotpink;
+}
+
+p::after {
+    content: '\261D';
+}

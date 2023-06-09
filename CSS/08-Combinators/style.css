@@ -1,0 +1,19 @@
+.div-1, .div-2 {
+    border: 2px solid black;
+}
+
+.div-1 p {
+    background-color: red;
+}
+
+.div-2 > p {
+    background-color: yellow;
+}
+
+.div-1 + p {
+    background-color: blueviolet;
+}
+
+.div-2 ~ p {
+    background-color: aqua;
+}

@@ -1,0 +1,16 @@
+.div-1 {
+    display: block;
+    background-color: aqua;
+}
+
+.div-2 {
+    display: inline-block;
+    width: 75%;
+    height: 400px;
+    background-color: chartreuse;
+}
+
+.div-3 {
+    display: inline;
+    background-color: red;
+}

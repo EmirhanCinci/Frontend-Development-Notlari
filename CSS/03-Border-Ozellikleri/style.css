@@ -1,0 +1,33 @@
+#para-1 {
+    border-width: 5px; 
+    border-style: solid;
+    border-color: red;
+}
+
+#para-2 {
+    border: 2px solid red;
+}
+
+#para-3 {
+    border: 3px dashed red;
+}
+
+#para-4 {
+    border: 3px dotted red;
+}
+
+#para-5 {
+    border: 3px double red;
+}
+
+#para-6 {
+    border: 3px solid blue;
+    border-radius: 8px;
+}
+
+#para-7 {
+    width: 50px;
+    height: 50px;
+    border: 3px solid blue;
+    border-radius: 50%;
+}

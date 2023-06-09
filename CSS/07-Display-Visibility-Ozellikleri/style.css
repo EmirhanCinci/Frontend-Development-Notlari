@@ -1,0 +1,13 @@
+.div-1 {
+    background-color: rebeccapurple;
+    visibility: hidden;
+}
+
+.div-2 {
+    background-color: aqua;
+    display: none;
+}
+
+.div-3 {
+    background-color: red;
+}
