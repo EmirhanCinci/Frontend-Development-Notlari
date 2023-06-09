@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13. Ders - Form Etiketleri</title>
+</head>
+<body>
+    <form action="#">
+        <table>
+            <!-- Text Girişi -->
+            <tbody><tr>
+                <td><label for="name">Adınız: </label></td>
+                <td><input type="text" placeholder="Lütfen adınızı giriniz..."></td>
+            </tr>
+            <tr>
+                <td><label for="surname">Soyadınız: </label></td>
+                <td><input type="text" placeholder="Lütfen soyadınzı giriniz..."></td>
+            </tr>
+            <!-- Email Girişi -->
+            <tr>
+                <td><label for="email">Email: </label></td>
+                <td><input type="email" placeholder="ornekmail@gmail.com"></td>
+            </tr>
+            <!-- Password Girişi -->
+            <tr>
+                <td><label for="password">Şifre: </label></td>
+                <td><input type="password" placeholder="Lütfen şifrenizi giriniz..."></td>
+            </tr>
+            <!-- Combobox Girişi -->
+            <tr>
+                <td><label for="cities">Şehir: </label></td>
+                <td>
+                    <select name="cities" id="cities">
+                        <option value="0" disabled="" selected="">Lütfen bir şehir seçiniz...</option>
+                        <option value="Adana">Adana</option>
+                        <option value="Amasya">Amasya</option>
+                        <option value="Çorum">Çorum</option>
+                        <option value="Ankara">Ankara</option>
+                        <option value="İstanbul">İstanbul</option>
+                        <option value="İzmir">İzmir</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- RadioButton Girişi -->
+            <tr>
+                <td><label for="gender">Cinsiyet: </label></td>
+                <td>
+                    <label for="kadin"><input type="radio" name="gender" id="kadin">Kadın</label>
+                    <label for="erkek"><input type="radio" name="gender" id="erkek">Erkeks</label>
+                </td>
+            </tr>
+            <!-- CheckBox Girişi -->
+            <tr>
+                <td><label for="languages">Diller:</label></td>
+                <td>
+                    <label for="english"><input type="checkbox" id="english">İngilizce</label>
+                    <label for="turkish"><input type="checkbox" id="turkish">Türkçe</label>
+                </td>
+            </tr>
+            <!-- Button Girişi -->
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Gönder"></td>
+            </tr>
+        </tbody></table>
+    </form>
+</body>
+</html>
